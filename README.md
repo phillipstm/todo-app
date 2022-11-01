@@ -1,8 +1,16 @@
-# Getting Started with Create React App
+# ToDo App
+
+## Author: Teresa Phillips
+
+## An app created to track a todo list. That allows a user to add items to a list, display and assign them to someone. The app also has the ability to show when an item has been completed.
+
+## Thank you's: Code Fellows instructor Ryan Galloway, for the starter code.
+
+Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+### Available Scripts
 
 In the project directory, you can run:
 
