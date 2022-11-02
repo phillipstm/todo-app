@@ -3,7 +3,7 @@ import useForm from '../../hooks/form.js';
 import Header from '../Header/header';
 import { v4 as uuid } from 'uuid';
 import List from '../List';
-import { Card, createStyles, Grid, Slider, TextInput } from '@mantine/core';
+import { Button, Card, createStyles, Grid, Slider, TextInput } from '@mantine/core';
 
 
 const useStyles = createStyles((theme) => ({
@@ -90,7 +90,7 @@ const ToDo = () => {
                 mb="lg"
               />
 
-              <Button type="submit">Add Item</Button> 
+              <Button type="submit">Add Item</Button>
             </form>
           </Card>
         </Grid.Col>
@@ -98,10 +98,10 @@ const ToDo = () => {
           <List list={list} toggleComplete={toggleComplete} />
         </Grid.Col>
       </Grid>
-     </>
-     );
-    };
-    
+    </>
+  );
+};
+
 
 
 
