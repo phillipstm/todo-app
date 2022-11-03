@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 
-export const SettingsContext = React.useContext();
+export const SettingsContext = React.createContext();
 
 const SettingsProvider = ({ children }) => {
     const [showCompleted, setShowCompleted] = useState(false);
