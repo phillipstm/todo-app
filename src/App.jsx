@@ -1,6 +1,6 @@
 import React from 'react';
 
-import ToDo from './Components/ToDo/index.jsx';
+import ToDo from './Components/ToDo/index.js';
 
 export default class App extends React.Component {
   render() {
